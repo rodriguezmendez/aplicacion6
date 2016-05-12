@@ -5,5 +5,10 @@ $(document).ready(function(e) {
 		$('#btnvibrar').on('tap', function() {
 			navigator.notification.vibrate(3000);
 		});
+		
+		$('#beep').on('tap', function() {
+			navigator.notification.beep(5);
+		});
+		
 	});
 });
